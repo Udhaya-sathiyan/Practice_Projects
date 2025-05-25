@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // var salary= 1000;
+        // function first(){
+        //     console.log("My salary is"+ salary);
+        //     var salary = 5000;
+        //     console.log("My salary is"+ salary);
+        // }
+
+
+        // first()
+
+        function execute(a,b,cb){
+    var result = a+b;
+    cb(result)  
+}
+execute(5,10,function(resultData){
+   console.log(resultData/2)
+})
+
+var myData =[3,4,5,6]
+myData.map(function(element){
+    Math.sqrt(element);
+    console.log(element);
+})
+
+    </script>
+</body>
+</html>
